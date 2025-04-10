@@ -6,7 +6,7 @@ This project explores global economic data with a focus on:
 
 ---
 
-## 📁 Datasets Used
+#Datasets Used
 
 ### 1. `Tariff_Calculations_plus_Population.csv`
 - Columns: Country, US Deficit, US Exports, US Imports, Trump Tariffs Alleged, Trump Response, Population
@@ -20,14 +20,14 @@ This project explores global economic data with a focus on:
 
 ---
 
-## 🧹 Data Cleaning Steps
+# Data Cleaning Steps
 - Removed `%` from percentage fields and converted to numeric
 - Removed commas from large numbers (e.g., imports, population)
 - Dropped rows with missing or malformed data
 
 ---
 
-## 📊 Visualizations
+# Visualizations
 
 ### Histogram
 - Shows the **distribution of Trump Tariffs Alleged**
@@ -39,7 +39,7 @@ This project explores global economic data with a focus on:
 
 ---
 
-## 🧪 Statistical Analysis
+# Statistical Analysis
 
 ### T-Test
 - Compares **tariff means** between countries with high vs low import volumes
@@ -51,6 +51,6 @@ This project explores global economic data with a focus on:
 
 ---
 
-## 💻 Tools & Libraries
+#Tools & Libraries
 - Python (pandas, matplotlib, seaborn, scipy)
 - Jupyter Notebook
